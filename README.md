@@ -2,6 +2,8 @@
 pilot implementation of GUI automation using webdriver
 
 # Running Tests
+Note: Framework is developed and tested on a mac environment.
+
 ## Prerequisites
 - maven (ver 2.2.1)
 - jdk (ver 1.7)
