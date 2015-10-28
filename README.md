@@ -28,7 +28,8 @@ pilot implementation of GUI automation using webdriver
 - Webdriver gives the flexibility to run tests on desktop browsers and mobile browsers (iphone, andriod). Also using firefox driver can easily simulate mobile devices by overriding useragent string
 
 ## Design
-- Framework is build on page object design pattern which helps in modelling user journey through the application.
-- Abstract factory pattern for creating gui elements based on the browser type used for testing and to make tests portable.
+- Framework uses page object design pattern to model user's journey through the application.
+- Abstract factory pattern for gui elements to make tests portable.
 
- 
+## Shortcoming
+- Tests cannot be run in parallel because of the way the browser is instantiated. 
